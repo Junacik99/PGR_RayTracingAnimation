@@ -1,0 +1,73 @@
+﻿  Performing Custom Build Tools
+  stdafx.cpp
+  BottomLevelASGenerator.cpp
+  RaytracingPipelineGenerator.cpp
+  RootSignatureGenerator.cpp
+  ShaderBindingTableGenerator.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xstring(2588,23): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xstring(2599): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xstring(2599): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xstring(2579): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xstring(2579): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+D:\junac\Documents\Marrtin\SKOLA\VUT\PGR\project\HelloTriangle\ShaderBindingTableGenerator.cpp(216): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+D:\junac\Documents\Marrtin\SKOLA\VUT\PGR\project\HelloTriangle\ShaderBindingTableGenerator.cpp(216): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  TopLevelASGenerator.cpp
+  Generating Code...
+  Win32Application.cpp
+  D3D12HelloTriangle.cpp
+  DXSample.cpp
+  Main.cpp
+  Generating Code...
+  D3D12HelloTriangle.vcxproj -> D:\junac\Documents\Marrtin\SKOLA\VUT\PGR\project\HelloTriangle\bin\x64\Debug\D3D12HelloTriangle.exe
+  Copy dxcompiler.dll and dxil.dll to target folder
+  
+  -------------------------------------------------------------------------------
+     ROBOCOPY     ::     Robust File Copy for Windows                              
+  -------------------------------------------------------------------------------
+  
+    Started : sobota 7. októbra 2023 0:30:30
+     Source : D:\x64\
+       Dest : D:\junac\Documents\Marrtin\SKOLA\VUT\PGR\project\HelloTriangle\bin\x64\Debug\
+  
+      Files : dxcompiler.dll
+  	    dxil.dll
+  	    
+    Options : /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+  
+  ------------------------------------------------------------------------------
+  
+  2023/10/07 00:30:30 ERROR 2 (0x00000002) Accessing Source Directory D:\x64\
+  The system cannot find the file specified.
+  
