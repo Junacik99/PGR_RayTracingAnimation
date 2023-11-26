@@ -34,7 +34,6 @@ public:
 	virtual void OnUpdate();
 	virtual void OnRender();
 	virtual void OnDestroy();
-	virtual void OnKeyUp(UINT8 key);
 
 private:
 	static const UINT FrameCount = 2;
@@ -75,6 +74,7 @@ private:
 	void WaitForPreviousFrame();
 
 	void CheckRaytracingSupport();
+	virtual void OnKeyUp(UINT8 key);
 	bool m_raster = true;
 
 	// TODO:
