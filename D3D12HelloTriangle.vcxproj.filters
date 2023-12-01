@@ -34,11 +34,11 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DXRHelper.h" />
-    <ClInclude Include="BottomLevelASGenerator.h" />
-    <ClInclude Include="RaytracingPipelineGenerator.h" />
-    <ClInclude Include="RootSignatureGenerator.h" />
-    <ClInclude Include="ShaderBindingTableGenerator.h" />
-    <ClInclude Include="TopLevelASGenerator.h" />
+    <ClInclude Include="nv_helpers_dx12\BottomLevelASGenerator.h" />
+    <ClInclude Include="nv_helpers_dx12\RaytracingPipelineGenerator.h" />
+    <ClInclude Include="nv_helpers_dx12\RootSignatureGenerator.h" />
+    <ClInclude Include="nv_helpers_dx12\ShaderBindingTableGenerator.h" />
+    <ClInclude Include="nv_helpers_dx12\TopLevelASGenerator.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -56,21 +56,15 @@
     <ClCompile Include="Win32Application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BottomLevelASGenerator.cpp" />
-    <ClCompile Include="RaytracingPipelineGenerator.cpp" />
-    <ClCompile Include="RootSignatureGenerator.cpp" />
-    <ClCompile Include="ShaderBindingTableGenerator.cpp" />
-    <ClCompile Include="TopLevelASGenerator.cpp" />
+    <ClCompile Include="nv_helpers_dx12\BottomLevelASGenerator.cpp" />
+    <ClCompile Include="nv_helpers_dx12\RaytracingPipelineGenerator.cpp" />
+    <ClCompile Include="nv_helpers_dx12\RootSignatureGenerator.cpp" />
+    <ClCompile Include="nv_helpers_dx12\ShaderBindingTableGenerator.cpp" />
+    <ClCompile Include="nv_helpers_dx12\TopLevelASGenerator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="shaders.hlsl">
       <Filter>Assets\Shaders</Filter>
     </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <FxCompile Include="Shaders\Common.hlsl" />
-    <FxCompile Include="Shaders\Hit.hlsl" />
-    <FxCompile Include="Shaders\Miss.hlsl" />
-    <FxCompile Include="Shaders\RayGen.hlsl" />
   </ItemGroup>
 </Project>
